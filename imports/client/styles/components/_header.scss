@@ -1,0 +1,30 @@
+.header {
+  background-color: $header-bg;
+  color: $header-color;
+  // display: flex;
+  // justify-content: center;
+  // align-content: space-between;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  width: $site-max-width;
+  margin: 0 auto;
+  padding: $space;
+}
+
+.header__title {
+  margin: 0;
+}
+
+// .header__title {
+//   color: $header-color;
+//   padding-top: $space;
+//   padding-bottom: $space;
+// }
+
+// .header__logout {
+//   color: white;
+//   text-decoration: underline;
+// }
